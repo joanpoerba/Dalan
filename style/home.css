@@ -223,7 +223,7 @@ footer section .title2 {
 
   body header {
     top: -500px;
-    transition: 1s;
+    transition: 1s !important;
     border-bottom: 7px solid #CB8647;
   }
 
