@@ -8,6 +8,7 @@
   <link rel="icon" href="../asset/logo.ico">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link rel="stylesheet" href="../style/career.css">
   <link rel="preload" href="../asset/background.webp">
 </head>
@@ -16,7 +17,7 @@
     <div class="lineWrapper d-xxl-none d-xl-none d-lg-flex justify-content-center align-items-center">
       <div class="line"></div>
     </div>
-    <header class="container-fluid d-xxl-flex d-xl-flex d-lg-none justify-content-center align-items-center shadow-sm py-3 position-fixed">
+    <header class="container-fluid d-xxl-flex d-xl-flex d-lg-none justify-content-center align-items-center shadow-sm py-3 position-fixed" data-aos="fade-down" data-aos-duration="2000">
       <section class="container-lg d-flex flex-xxl-row flex-xl-row justify-content-between align-items-center">
         <div>
           <h1 class="title"><span class="dText">D</span>alan</h1>
@@ -52,13 +53,13 @@
     </header>
     <main class="container-fluid d-flex justify-content-start align-items-center">
       <div>
-        <div>
+        <div data-aos="fade-right" data-aos-duration="1000">
           <h1 class="fw-semibold text-light">Ayo menjadi bagian <br> dari kami sekarang</h1>
         </div>
-        <div class="my-4">
+        <div class="my-4" data-aos="fade-right" data-aos-duration="2000">
           <input class="rounded-5 bg-light text-secondary border-0 ps-4 py-2 w-75 fw-light" type="text" placeholder="Search by role (Eg. Designer)">
         </div>
-        <div>
+        <div data-aos="fade-right" data-aos-duration="3000">
           <button class="btn py-2 px-3 rounded-5 text-light fw-semibold">Find jobs</button>
         </div>
       </div>
@@ -154,6 +155,7 @@
       </div>
     </section>
   </footer>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script src="../js/header.js"></script>
 </body>
 </html>
