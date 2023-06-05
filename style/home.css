@@ -455,6 +455,7 @@ footer section .title2 {
     align-items: start !important;
     height: 100vh;
     background: url("../asset/background2.webp");
+    background-attachment: fixed;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
