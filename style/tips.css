@@ -231,6 +231,18 @@ footer section .title2 {
     padding-top: 50px !important;
   }
 
+  #home main section>div:nth-child(2) {
+    padding: 0 4% !important;
+  }
+
+  #home main section>div:nth-child(2) ol li>div:nth-child(2)>div:nth-child(2){
+    margin-top: 20px !important;
+  }
+
+  #home main section>div:nth-child(2) ol li>div:nth-child(2)>div:nth-child(2) img{
+    width: 70% !important;
+  }
+
   .lineWrapper {
     width: 35px;
     height: 19px;
@@ -317,7 +329,7 @@ footer section .title2 {
     font-size: 15px !important;
   }
 
-  #home main>section>div:nth-child(2)>ol>li>div:nth-child(2)>div:nth-child(2){
+  #home main>section>div:nth-child(2)>ol>li>div:nth-child(2)>div:nth-child(2) {
     margin-top: 30px !important;
   }
 
